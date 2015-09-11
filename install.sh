@@ -21,7 +21,6 @@ for i in _*
 do
   link_file $i
 done
-link_file bin
 
 # Vim Package Manager Install
 if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
