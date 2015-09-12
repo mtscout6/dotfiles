@@ -1,0 +1,22 @@
+; vim: ft=gitconfig
+
+[user]
+  name = Matthew Smith
+  email = mtscout6@gmail.com
+
+[github]
+  user = mtscout6
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+
+[help]
+  autocorrect=-1
+
+[push]
+  default = tracking
+
+[log]
+  date = local
