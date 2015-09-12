@@ -1,27 +1,26 @@
-"
-" Basics
-"
 let mapleader = ','
 let g:mapleader = ','
 
+set autoread                 " Reloads file if changed on disk
+set backspace=2              " Allow backspace over autoindent, EOL, and BOL
 set clipboard+=unnamed       " Makes using clipboard easier
 set exrc                     " Enable per-directory .vimrc
 set fileformats=unix,mac,dos " Automatic end-of-file format detection
-set mouse=a                  " Always enable mouse
+set hidden                   " Switch between buffers without saving
+set history=1000             " Number of command lines to remember
 
 "
-" Performance
+" Backup / Swap files
 "
-set nolazyredraw             " Don't redraw while executing macros
+set noswapfile
 
 "
-" Line Numbers
+" Search / Replace
 "
-set number                   " Show line numbers
-set numberwidth=1            " Try to use only 1 column when possible
-
-"
-" Cursor
-"
-set cursorline               " Highlight line cursor is on
-set cursorcolumn             " Highlight column cursor is on
+set incsearch                " Show best match while typing a search
+set ignorecase               " Case insensitive search
+set smartcase                " Unless uppercase used in search expression
+set gdefault                 " Default to /g global replace
+set hlsearch                 " Highlighht searches and search results
+" Clear highlighted search using the space bar
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
