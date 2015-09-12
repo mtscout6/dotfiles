@@ -3,6 +3,9 @@
 filetype off
 filetype plugin indent off
 
+" Increase timeout for YouCompleteMe
+let g:neobundle#install_process_timeout=300
+
 if has('vim_starting')
   set nocompatible
   set runtimepath+=~/.vim/bundle/neobundle.vim/

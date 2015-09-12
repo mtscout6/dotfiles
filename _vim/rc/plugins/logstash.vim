@@ -1,0 +1,1 @@
+NeoBundle 'robbles/logstash.vim'

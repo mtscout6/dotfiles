@@ -1,0 +1,19 @@
+{
+  "name": "matts-dotfiles",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Matt Smith's dotfiles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtscout6/nextgen-dotfiles.git"
+  },
+  "author": "Matthew L Smith <mtscout6@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtscout6/nextgen-dotfiles/issues"
+  },
+  "homepage": "https://github.com/mtscout6/nextgen-dotfiles#readme",
+  "dependencies": {
+    "instant-markdown-d": "^0.1.0"
+  }
+}

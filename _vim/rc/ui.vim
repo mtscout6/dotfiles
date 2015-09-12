@@ -11,6 +11,8 @@ set ttyfast                                 " Assume fast terminal connection
 " Performance
 "
 set lazyredraw                              " Don't redraw while executing macros
+set timeoutlen=300
+set ttimeoutlen=50
 
 "
 " Line Numbers
