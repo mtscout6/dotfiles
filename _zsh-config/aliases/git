@@ -1,0 +1,4 @@
+alias soft='git reset --soft HEAD~1 && git reset HEAD .'
+alias hard='git reset --hard HEAD~1'
+alias wip='git add -A && git commit -m "WIP" --no-verify'
+alias gk='gitk --all &'

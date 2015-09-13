@@ -27,3 +27,9 @@ if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
 then
   git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 fi
+
+# Install Oh-My-ZSH
+if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
+then
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+fi

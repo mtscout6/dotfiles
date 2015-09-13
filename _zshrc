@@ -1,0 +1,48 @@
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+# Define editor preference
+export EDITOR=vim
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="robbyrussell"
+
+# Aliases
+#alias tmux="TERM=screen-256color-bce tmux"
+#alias ls="ls --color"
+#alias bake='bundle exec rake'
+#alias soft='git reset --soft HEAD~1 && git reset HEAD .'
+#alias hard='git reset --hard HEAD~1'
+#alias wip='git add -A && git commit -m "WIP" --no-verify'
+#alias gk='gitk --all &'
+for f in ~/.zsh-config/aliases/*
+do
+  source $f
+done
+
+# Determine if port is in use
+port() {lsof -i tcp:$1}
+
+plugins=(git docker)
+
+source $ZSH/oh-my-zsh.sh
+
+# Bin provided in dotfiles
+export PATH="/Users/smithm/.bin:$PATH"
+export PATH="/Users/smithm/.bin/mac:$PATH"
+
+# Bin from dotfiles/node_modules/.bin
+export PATH="$(ls -l ~/.zshrc | cut -f2- -d'>' | awk '{gsub(/^ +| +$/,"")} {print $0}' | awk '{gsub(/_zshrc$/,"node_modules/.bin")} {print $0}'):$PATH"
+
+# Private variables to set IE:
+# - HOMEBREW_GITHUB_API_TOKEN
+source ~/.zsh-config/zshrc_private
+
+# VI Command Line
+bindkey -v
+
+# SSH Agent Setup
+source ~/.zsh-config/ssh-agent
