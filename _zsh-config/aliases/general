@@ -2,3 +2,5 @@ alias ls="ls --color"
 
 # Determine if port is in use
 port() {lsof -i tcp:$1}
+
+alias serve="python -m SimpleHTTPServer" # Local static web server from current dir
