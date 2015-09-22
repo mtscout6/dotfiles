@@ -32,7 +32,7 @@
 
   # Branch / Remote management
   fmerge = merge --ff-only
-  req = "!f() { git fetch origin refs/pull/$1/head:pr$1; } ; f"
+  req = "!f() { git fetch origin refs/pull/$1/head:pr$1 -f; } ; f"
 
   # Basic Commands
   co = checkout
@@ -46,3 +46,7 @@
   aa = add -A .
   fa = fetch -p --all
   rc = rebase --continue
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
