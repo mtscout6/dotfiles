@@ -18,6 +18,7 @@
     "eslint": "^1.2.1",
     "eslint-config-airbnb": "0.0.8",
     "eslint-plugin-react": "^3.4.0",
-    "instant-markdown-d": "^0.1.0"
+    "instant-markdown-d": "^0.1.0",
+    "webpack": "^1.12.2"
   }
 }
