@@ -33,3 +33,6 @@ if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
 then
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
+
+# Install npm "global" modules
+npm install
