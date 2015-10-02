@@ -16,7 +16,7 @@ do
   source $f
 done
 
-plugins=(git docker)
+plugins=(git docker vi-mode brew chucknorris jira npm)
 
 source $ZSH/oh-my-zsh.sh
 
