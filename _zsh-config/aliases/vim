@@ -1,1 +1,1 @@
-alias vim="PATH=./node_modules/.bin:$PATH vim"
+alias vim="npm-exec vim"
