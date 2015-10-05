@@ -30,6 +30,7 @@
     "eslint-plugin-lodash": "^0.1.4",
     "eslint-plugin-mocha": "^1.0.0",
     "eslint-plugin-react": "^3.4.0",
+    "flow-bin": "^0.20.1",
     "fs-promise": "^0.3.1",
     "grunt-cli": "^0.1.13",
     "gulp": "^3.9.0",
