@@ -1,3 +1,5 @@
+let g:user_emmet_leader_key='<C-e>'
+
 NeoBundleLazy 'mattn/emmet-vim', {
   \   'autoload': {
   \     'filetypes': [
@@ -12,4 +14,4 @@ NeoBundleLazy 'mattn/emmet-vim', {
   \   }
   \ }
 
-imap <C-e> <C-y>,
+"imap <C-e> <C-y>,
