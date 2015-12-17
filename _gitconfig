@@ -1,7 +1,7 @@
 ; vim: ft=gitconfig
 
 [user]
-  name = Matthew Smith
+  name = Matt Smith
   email = mtscout6@gmail.com
 
 [github]
