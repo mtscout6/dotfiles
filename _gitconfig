@@ -32,16 +32,17 @@
 
   # Branch / Remote management
   fmerge = merge --ff-only
-  req = "!f() { git fetch origin refs/pull/$1/head:pr$1 -f; } ; f"
+  req = "!f() { git fetch origin refs/pull/$1/head:pr/$1 -f; } ; f"
 
   # Basic Commands
   co = checkout
+  cop = "!f() { git checkout pr/$1; }; f"
   ci = commit -m
   st = status -sb
   mt = mergeTool
   ba = branch
   baa = branch -a
-  pr = pull --rebase
+  pr = !git fa && git pull --rebase
   cp = cherry-pick
   aa = add -A .
   fa = fetch -p --all
