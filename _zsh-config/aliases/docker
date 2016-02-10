@@ -20,9 +20,11 @@ rmstopped() {
 #unset DOCKER_CERT_PATH
 #unset DOCKER_TLS_VERIFY
 # Uncomment when TLS is re-enabled
-export DOCKER_CERT_PATH=/Users/smithm/.boot2docker/certs/boot2docker-vm
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_TLS_VERIFY=1
+#export DOCKER_CERT_PATH=/Users/smithm/.boot2docker/certs/boot2docker-vm
+#export DOCKER_HOST=tcp://192.168.59.103:2376
+#export DOCKER_TLS_VERIFY=1
+
+export DOCKER_HOST=tcp://10.250.5.165:3375
 
 alias dm="docker-machine"
 alias dc="docker-compose"
