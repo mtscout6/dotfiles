@@ -34,6 +34,15 @@
   fmerge = merge --ff-only
   req = "!f() { git fetch origin refs/pull/$1/head:pr/$1 -f; } ; f"
 
+  wt = worktree
+  wtl = worktree list
+  wta = worktree add
+  # TODO figure out a chdir solution
+  wtp = "!f() { \
+    wtpath=$(git worktree list | grep "\\\\[$1]" | sed 's/ .*//g'); \
+    echo $wtpath; \
+  }; f"
+
   # Basic Commands
   co = checkout
   cop = "!f() { git checkout pr/$1; }; f"
