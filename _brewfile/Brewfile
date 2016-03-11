@@ -9,6 +9,10 @@ brew atlassian-plugin-sdk
 
 tap caskroom/cask
 brew brew-cask
+cask alfred
+cask discord
+cask gitter
+cask hipchat
 cask iterm2
 cask p4merge
 cask skype
