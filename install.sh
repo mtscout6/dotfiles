@@ -22,6 +22,12 @@ do
   link_file $i
 done
 
+# Install Homebrew and Brew-File
+# https://github.com/rcmdnk/homebrew-file
+curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh | sh
+
+brew file install
+
 # Vim Package Manager Install
 if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
 then

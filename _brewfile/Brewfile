@@ -1,0 +1,75 @@
+
+# tap repositories and their packages
+
+tap argon/mas
+brew mas
+
+tap atlassian/tap
+brew atlassian-plugin-sdk
+
+tap caskroom/cask
+brew brew-cask
+cask skype
+cask vagrant
+
+tap homebrew/bundle
+
+tap homebrew/dupes
+brew apple-gcc42
+
+tap homebrew/versions
+
+tap rcmdnk/file
+brew brew-file
+
+# Other Homebrew packages
+brew ack
+brew autoconf
+brew automake
+brew boot2docker
+brew cmake
+brew ctags
+brew docker
+brew docker-compose
+brew docker-machine
+brew fortune
+brew fswatch
+brew git
+brew go
+brew libevent
+brew libgpg-error
+brew libksba
+brew libtool
+brew libyaml
+brew makedepend
+brew mongodb
+brew mono
+brew netcat
+brew node
+brew openssl
+brew pcre
+brew pkg-config
+brew pstree
+brew readline
+brew reattach-to-user-namespace
+brew ruby
+brew the_silver_searcher
+brew tmux
+brew vim
+brew xz
+
+# App Store applications
+appstore 417375580 BetterSnapTool
+appstore 596816253 Caato Time Tracker
+appstore 411246225 Caffeine
+appstore 417602904 CloudApp
+appstore 412624365 EazyDraw
+appstore 405399194 Kindle
+appstore 482898991 LiveReload
+appstore 715768417 Microsoft Remote Desktop
+appstore 736473980 Paint 2
+appstore 803453959 Slack
+appstore 896450579 Textual 5
+appstore 485812721 TweetDeck
+appstore 497799835 Xcode
+appstore 865500966 feedly
