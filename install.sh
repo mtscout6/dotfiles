@@ -28,6 +28,12 @@ curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh | sh
 
 brew file install
 
+# Change default shell to ZSH
+if [ ! $SHELL -eq "/bin/zsh" ]
+then
+  chsh -s /bin/zsh
+fi
+
 # Vim Package Manager Install
 if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
 then
