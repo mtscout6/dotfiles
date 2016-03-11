@@ -12,7 +12,11 @@ brew brew-cask
 cask iterm2
 cask p4merge
 cask skype
+cask sourcetree
+cask ubersicht
 cask vagrant
+
+tap caskroom/fonts
 
 tap homebrew/bundle
 
@@ -51,6 +55,7 @@ brew node
 brew openssl
 brew pcre
 brew pkg-config
+brew powerline
 brew pstree
 brew readline
 brew reattach-to-user-namespace

@@ -14,7 +14,3 @@ $ git clone git@github.com:mtscout6/dotfiles.git
 $ cd dotfiles
 $ ./install.sh
 ```
-
-### Manual Installation
-
-[Powerline Fonts](http://powerline.readthedocs.org/en/master/installation/osx.html#fonts-installation) need to be installed manually :confused:
