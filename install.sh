@@ -35,7 +35,7 @@ then
 fi
 
 # Install Oh-My-ZSH
-if [ ! -d $HOME/.vim/bundle/neobundle.vim ]
+if [ ! -d $HOME/.oh-my-zsh ]
 then
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi

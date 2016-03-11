@@ -58,6 +58,7 @@ brew the_silver_searcher
 brew tmux
 brew vim
 brew xz
+brew zsh
 
 # App Store applications
 appstore 417375580 BetterSnapTool
