@@ -9,6 +9,7 @@ brew atlassian-plugin-sdk
 
 tap caskroom/cask
 brew brew-cask
+cask iterm2
 cask p4merge
 cask skype
 cask vagrant
