@@ -5,4 +5,7 @@ let g:airline#extensions#tmuxline#enabled = 0
 " Presentation
 "let g:airline#extensions#tmuxline#enabled = 1
 
-NeoBundle 'bling/vim-airline'
+let g:airline_theme='wombat'
+
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
