@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Make symbolic links to home folder
 link_file() {
@@ -24,9 +24,9 @@ done
 
 # Install Homebrew and Brew-File
 # https://github.com/rcmdnk/homebrew-file
-curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh | sh
+# curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh | sh
 
-brew file install
+# brew file install
 
 # Change default shell to ZSH
 if [ ! $SHELL -eq "/bin/zsh" ]
@@ -47,4 +47,4 @@ then
 fi
 
 # Install npm "global" modules
-npm install
+# npm install
