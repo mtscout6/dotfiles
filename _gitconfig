@@ -3,6 +3,7 @@
 [user]
   name = Matt Smith
   email = mtscout6@gmail.com
+  signingkey = Matt Smith (Git Signing) <mtscout6@gmail.com>
 
 [github]
   user = mtscout6
@@ -46,7 +47,7 @@
   # Basic Commands
   co = checkout
   cop = "!f() { git checkout pr/$1; }; f"
-  ci = commit -m
+  ci = commit -S
   st = status -sb
   mt = mergeTool
   ba = branch

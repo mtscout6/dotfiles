@@ -47,6 +47,7 @@ brew fortune
 brew fswatch
 brew git
 brew go
+brew gpg
 brew libevent
 brew libgpg-error
 brew libksba
