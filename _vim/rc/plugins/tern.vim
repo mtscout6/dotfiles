@@ -1,4 +1,4 @@
-NeoBundle 'marijnh/tern_for_vim', {
+NeoBundle 'ternjs/tern_for_vim', {
   \   'autoload':{
   \     'filetypes':[
   \       'javascript',
