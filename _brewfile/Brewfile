@@ -63,12 +63,16 @@ brew pcre
 brew pkg-config
 brew powerline
 brew pstree
+brew python
 brew readline
 brew reattach-to-user-namespace
 brew ruby
+brew shellcheck
+brew sqlite
 brew the_silver_searcher
 brew tmux
 brew vim
+brew watch
 brew xz
 brew zsh
 
