@@ -15,6 +15,7 @@ cask gitter
 cask hipchat
 cask iterm2
 cask p4merge
+cask rocket-chat
 cask skype
 cask slack
 cask sourcetree
