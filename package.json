@@ -37,7 +37,7 @@
     "grunt-cli": "^0.1.13",
     "gulp": "^3.9.0",
     "instant-markdown-d": "^0.1.0",
-    "markserv": "0.0.17",
+    "@mtscout6/markserv": "0.0.17",
     "mocha": "^2.3.3",
     "n": "^2.0.2",
     "nodemon": "^1.7.1",
