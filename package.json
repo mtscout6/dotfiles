@@ -17,6 +17,7 @@
     "postinstall": "./npm-module-aliases"
   },
   "dependencies": {
+    "@mtscout6/markserv": "0.0.17",
     "babel-cli": "^6.1.18",
     "babel-core": "^6.1.21",
     "babel-eslint": "^6.0.2",
@@ -37,7 +38,6 @@
     "grunt-cli": "^0.1.13",
     "gulp": "^3.9.0",
     "instant-markdown-d": "^0.1.0",
-    "@mtscout6/markserv": "0.0.17",
     "mocha": "^2.3.3",
     "n": "^2.0.2",
     "nodemon": "^1.7.1",
@@ -45,6 +45,7 @@
     "updtr": "^0.2.1",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0",
+    "yarn": "^0.15.1",
     "yo": "^1.4.8"
   }
 }
