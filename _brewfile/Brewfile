@@ -8,12 +8,11 @@ tap atlassian/tap
 brew atlassian-plugin-sdk
 
 tap caskroom/cask
-brew brew-cask
 cask alfred
 cask discord
+cask docker
 cask gitter
-cask hipchat
-cask iterm2
+cask google-drive
 cask p4merge
 cask rocket-chat
 cask skype
@@ -24,20 +23,19 @@ cask vagrant
 
 tap caskroom/fonts
 
+tap caskroom/fonts
+
 tap homebrew/bundle
 
 tap homebrew/dupes
-brew apple-gcc42
 
 tap homebrew/versions
-
-tap neovim/neovim
-brew neovim
 
 tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
+brew apple-gcc42
 brew ack
 brew autoconf
 brew automake
@@ -67,7 +65,6 @@ brew node
 brew openssl
 brew pcre
 brew pkg-config
-brew powerline
 brew pstree
 brew python
 brew readline
@@ -86,15 +83,9 @@ brew zsh
 # App Store applications
 appstore 417375580 BetterSnapTool
 appstore 596816253 Caato Time Tracker
-appstore 411246225 Caffeine
-appstore 417602904 CloudApp
-appstore 412624365 EazyDraw
 appstore 405399194 Kindle
 appstore 482898991 LiveReload
 appstore 715768417 Microsoft Remote Desktop
-appstore 736473980 Paint 2
-appstore 803453959 Slack
 appstore 896450579 Textual 5
 appstore 485812721 TweetDeck
 appstore 497799835 Xcode
-appstore 865500966 feedly

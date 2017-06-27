@@ -1,1 +1,0 @@
-NeoBundle 'edsono/vim-matchit'
