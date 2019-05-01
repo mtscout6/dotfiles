@@ -12,9 +12,8 @@ cask alfred
 cask discord
 cask docker
 cask gitter
-cask google-drive
-cask p4merge
-cask rocket-chat
+cask google-backup-and-sync
+cask p4v
 cask skype
 cask slack
 cask sourcetree
@@ -27,15 +26,10 @@ tap caskroom/fonts
 
 tap homebrew/bundle
 
-tap homebrew/dupes
-
-tap homebrew/versions
-
 tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
-brew apple-gcc42
 brew ack
 brew autoconf
 brew automake
