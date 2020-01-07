@@ -33,7 +33,6 @@ brew brew-file
 brew ack
 brew autoconf
 brew automake
-brew boot2docker
 brew cmake
 brew ctags
 brew docker
