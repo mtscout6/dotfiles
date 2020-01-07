@@ -14,3 +14,7 @@ $ git clone git@github.com:mtscout6/dotfiles.git
 $ cd dotfiles
 $ ./install.sh
 ```
+
+## Fonts
+
+Pull fonts from: `https://github.com/powerline/fonts.git`
