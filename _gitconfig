@@ -58,7 +58,7 @@
   fa = fetch -p --all
   rc = rebase --continue
 
-  work = config user.email "matthew.smith2@extendhealth.com"
+  work = config user.email "matthew.smith@extendhealth.com"
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
