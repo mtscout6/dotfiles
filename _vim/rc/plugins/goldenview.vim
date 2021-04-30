@@ -1,1 +1,1 @@
-NeoBundle 'zhaocai/GoldenView.Vim'
+call dein#add('zhaocai/GoldenView.Vim')

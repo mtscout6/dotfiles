@@ -1,1 +1,1 @@
-NeoBundle 'godlygeek/tabular'
+call dein#add('godlygeek/tabular')

@@ -1,1 +1,1 @@
-NeoBundle 'vim-scripts/wombat256.vim'
+call dein#add('vim-scripts/wombat256.vim')

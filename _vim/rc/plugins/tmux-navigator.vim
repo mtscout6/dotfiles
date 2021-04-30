@@ -1,1 +1,1 @@
-NeoBundle 'christoomey/vim-tmux-navigator'
+call dein#add('christoomey/vim-tmux-navigator')

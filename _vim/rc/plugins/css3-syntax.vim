@@ -1,10 +1,9 @@
-NeoBundleLazy 'hail2u/vim-css3-syntax', {
-  \   'autoload': {
-  \     'filetypes': [
+call dein#add('hail2u/vim-css3-syntax', {
+  \   'on_ft': [
   \       'css',
   \       'less',
   \       'scss',
   \       'sass'
   \     ]
   \   }
-  \ }
+  \ )

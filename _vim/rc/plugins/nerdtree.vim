@@ -1,11 +1,4 @@
-NeoBundleLazy 'scrooloose/nerdtree', {
-  \   'autoload':{
-  \     'commands':[
-  \       'NERDTreeToggle',
-  \       'NERDTreeFind'
-  \     ]
-  \   }
-  \ }
+call dein#add('preservim/nerdtree')
 
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=[]

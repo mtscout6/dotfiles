@@ -1,1 +1,1 @@
-NeoBundle 'tommcdo/vim-exchange'
+call dein#add('tommcdo/vim-exchange')

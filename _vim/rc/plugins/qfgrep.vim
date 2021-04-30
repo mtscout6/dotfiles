@@ -1,1 +1,1 @@
-NeoBundle 'sk1418/QFGrep'
+call dein#add('sk1418/QFGrep')

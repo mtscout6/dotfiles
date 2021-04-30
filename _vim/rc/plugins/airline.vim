@@ -7,5 +7,5 @@ let g:airline#extensions#tmuxline#enabled = 0
 
 let g:airline_theme='wombat'
 
-NeoBundle 'vim-airline/vim-airline'
-NeoBundle 'vim-airline/vim-airline-themes'
+call dein#add('vim-airline/vim-airline')
+call dein#add('vim-airline/vim-airline-themes')

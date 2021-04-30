@@ -1,4 +1,4 @@
-NeoBundle 'mileszs/ack.vim'
+call dein#add('mileszs/ack.vim')
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 

@@ -1,1 +1,1 @@
-NeoBundle 'tpope/vim-repeat'
+call dein#add('tpope/vim-repeat')

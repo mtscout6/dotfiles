@@ -1,7 +1,6 @@
-NeoBundle 'pangloss/vim-javascript', {
-  \   'autoload': {
-  \     'filetypes': [
+call dein#add('pangloss/vim-javascript', {
+  \   'on_ft': [
   \       'javascript'
   \     ]
   \   }
-  \ }
+  \ )

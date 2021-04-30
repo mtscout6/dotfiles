@@ -35,9 +35,9 @@ then
 fi
 
 # Vim Package Manager Install
-if [ ! -d "$HOME/.vim/bundle/neobundle.vim" ]
+if [ ! -d "$HOME/.vim/bundle/dein.vim" ]
 then
-  git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+  git clone --depth=1 git://github.com/Shougo/dein.vim ~/.vim/bundle/dein.vim
 fi
 
 # Install Oh-My-ZSH

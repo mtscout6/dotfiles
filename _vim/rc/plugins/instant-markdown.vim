@@ -1,12 +1,11 @@
-NeoBundleLazy 'suan/vim-instant-markdown', {
-  \   'autoload': {
-  \     'filetypes': [
+call dein#add('suan/vim-instant-markdown', {
+  \   'on_ft': [
   \       'markdown',
   \       'md',
   \       'mkd.markdown'
   \     ]
   \   }
-  \ }
+  \ )
 
 let g:instant_markdown_autostart = 0
 

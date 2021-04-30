@@ -1,8 +1,7 @@
-NeoBundleLazy 'vim-ruby/vim-ruby', {
-  \   'autoload':{
-  \     'filetypes':[
+call dein#add('vim-ruby/vim-ruby', {
+  \   'on_ft': [
   \       'ruby',
   \       'vim'
   \     ]
   \   }
-  \ }
+  \ )

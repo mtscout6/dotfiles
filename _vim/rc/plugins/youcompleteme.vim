@@ -6,8 +6,8 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:ycm_add_preview_to_completeopt = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 
-NeoBundle 'Valloric/YouCompleteMe', {
+call dein#add('Valloric/YouCompleteMe', {
   \   'build' : {
-  \     'mac' : './install.py --clang-completer --omnisharp-completer'
+  \     'mac' : 'python3 install.py --all'
   \   },
   \ }

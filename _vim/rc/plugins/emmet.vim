@@ -1,10 +1,7 @@
 let g:user_emmet_leader_key='<C-e>'
 
-NeoBundleLazy 'mattn/emmet-vim', {
-  \   'autoload': {
-  \     'filetypes': [
-  \       'cjsx',
-  \       'coffeescript',
+call dein#add('mattn/emmet-vim', {
+  \   'on_ft': [
   \       'html',
   \       'javascript',
   \       'markdown',
@@ -12,6 +9,6 @@ NeoBundleLazy 'mattn/emmet-vim', {
   \       'xml'
   \     ]
   \   }
-  \ }
+  \ )
 
 "imap <C-e> <C-y>,

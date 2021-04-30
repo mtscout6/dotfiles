@@ -1,8 +1,7 @@
-NeoBundleLazy 'tpope/vim-endwise', {
-  \   'autoload':{
-  \     'filetypes':[
+call dein#add('tpope/vim-endwise', {
+  \   'on_ft': [
   \       'ruby',
   \       'vim'
   \     ]
   \   }
-  \ }
+  \ )

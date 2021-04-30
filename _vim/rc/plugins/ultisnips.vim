@@ -1,4 +1,4 @@
-NeoBundle 'sirver/ultisnips'
+call dein#add('sirver/ultisnips')
 
  let g:UltiSnipsExpandTrigger="<tab>"
  let g:UltiSnipsJumpForwardTrigger="<tab>"

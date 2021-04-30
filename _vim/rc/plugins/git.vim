@@ -1,1 +1,1 @@
-NeoBundle 'tpope/vim-git'
+call dein#add('tpope/vim-git')

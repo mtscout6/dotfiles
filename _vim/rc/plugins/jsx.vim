@@ -1,7 +1,6 @@
-NeoBundleLazy 'mxw/vim-jsx', {
-  \   'autoload': {
-  \     'filetypes': [
+call dein#add('mxw/vim-jsx', {
+  \   'on_ft': [
   \       'javascript'
   \     ]
   \   }
-  \ }
+  \ )

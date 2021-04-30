@@ -1,1 +1,1 @@
-NeoBundle 'robbles/logstash.vim'
+call dein#add('robbles/logstash.vim')

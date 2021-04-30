@@ -1,1 +1,1 @@
-NeoBundle 'tpope/vim-surround'
+call dein#add('tpope/vim-surround')

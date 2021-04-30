@@ -1,8 +1,7 @@
-NeoBundleLazy 'othree/html5.vim', {
-  \   'autoload': {
-  \     'filetypes': [
+call dein#add('othree/html5.vim', {
+  \   'on_ft': [
   \       'html',
   \       'javascript'
   \     ]
   \   }
-  \ }
+  \ )

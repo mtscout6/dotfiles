@@ -1,10 +1,9 @@
-NeoBundleLazy 'docunext/closetag.vim', {
-  \   'autoload': {
-  \     'filetypes': [
-  \        'html',
-  \        'xml',
-  \        'javascript'
-  \      ]
-  \   }
-  \ }
+call dein#add('docunext/closetag.vim', {
+  \   'on_ft': [
+  \     'html',
+  \     'xml',
+  \     'javascript'
+  \   ]
+  \  }
+  \)
 

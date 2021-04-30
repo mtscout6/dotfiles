@@ -1,4 +1,4 @@
-NeoBundle 'scrooloose/syntastic'
+call dein#add('scrooloose/syntastic')
 
 " Syntastic Settings
 "set statusline+=%#warningmsg#

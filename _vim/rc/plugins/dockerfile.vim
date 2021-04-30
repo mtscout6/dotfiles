@@ -1,7 +1,6 @@
-NeoBundleLazy 'ekalinin/Dockerfile.vim', {
-  \   'autoload':{
-  \     'filetypes':[
+call dein#add('ekalinin/Dockerfile.vim', {
+  \   'on_ft': [
   \       'Dockerfile'
   \     ]
   \   }
-  \ }
+  \ )

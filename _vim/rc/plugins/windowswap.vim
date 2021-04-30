@@ -1,1 +1,1 @@
-NeoBundle 'wesQ3/vim-windowswap'
+call dein#add('wesQ3/vim-windowswap')

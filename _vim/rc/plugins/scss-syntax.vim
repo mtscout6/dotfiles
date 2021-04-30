@@ -1,8 +1,7 @@
-NeoBundleLazy 'cakebaker/scss-syntax.vim', {
-  \   'autoload': {
-  \     'filetypes': [
+call dein#add('cakebaker/scss-syntax.vim', {
+  \   'on_ft': [
   \       'scss',
   \       'sass'
   \     ]
   \   }
-  \ }
+  \ )

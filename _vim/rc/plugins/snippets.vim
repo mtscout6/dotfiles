@@ -1,1 +1,1 @@
-NeoBundle 'honza/vim-snippets'
+call dein#add('honza/vim-snippets')

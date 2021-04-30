@@ -1,1 +1,1 @@
-NeoBundle 'raimondi/delimitmate'
+call dein#add('raimondi/delimitmate')

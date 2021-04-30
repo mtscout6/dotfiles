@@ -1,1 +1,1 @@
-NeoBundle 'tpope/vim-dispatch'
+call dein#add('tpope/vim-dispatch')

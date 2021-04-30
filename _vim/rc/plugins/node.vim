@@ -1,4 +1,4 @@
-NeoBundle 'moll/vim-node'
+call dein#add('moll/vim-node')
 
 " For some reason lazily loading this breaks gf
 "

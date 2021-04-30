@@ -1,1 +1,1 @@
-NeoBundle 'kshenoy/vim-signature'
+call dein#add('kshenoy/vim-signature')

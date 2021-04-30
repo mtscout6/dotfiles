@@ -1,1 +1,1 @@
-NeoBundle 'ervandew/supertab'
+call dein#add('ervandew/supertab')

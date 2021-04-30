@@ -1,1 +1,1 @@
-NeoBundle 'tomtom/tlib_vim'
+call dein#add('tomtom/tlib_vim')
