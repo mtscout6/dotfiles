@@ -26,7 +26,7 @@
     "create-react-app": "^1.0.2",
     "dateformat": "^1.0.11",
     "esdoc": "^0.4.3",
-    "eslint": "^3.19.0",
+    "eslint": "^4.18.2",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-lodash": "^0.1.4",
     "eslint-plugin-mocha": "^4.9.0",
