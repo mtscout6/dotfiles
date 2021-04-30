@@ -43,3 +43,7 @@ Thumbs.db
 # IDE Files #
 #############
 .idea/
+
+# Vim generated files #
+# #####################
+.netrwhist
