@@ -58,7 +58,7 @@
   fa = fetch -p --all
   rc = rebase --continue
 
-  work = config user.email "matthew.smith@extendhealth.com"
+  clonew = "!f() { ~/.bin/git-work-clone.sh $@; } ; f"
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
