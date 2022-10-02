@@ -53,10 +53,11 @@ runtime! rc/plugins/logstash.vim
 "runtime! rc/plugins/markdown.vim
 "runtime! rc/plugins/matchtag.vim
 "runtime! rc/plugins/multiple-cursors.vim
-"runtime! rc/plugins/nerdcommenter.vim
+runtime! rc/plugins/nerdcommenter.vim
 runtime! rc/plugins/nerdtree.vim
 runtime! rc/plugins/node.vim
 "runtime! rc/plugins/projectionist.vim
+runtime! rc/plugins/python.vim
 runtime! rc/plugins/qfgrep.vim
 runtime! rc/plugins/quickfix-reflector.vim
 runtime! rc/plugins/repeat.vim
@@ -65,10 +66,10 @@ runtime! rc/plugins/scss-syntax.vim
 runtime! rc/plugins/signature.vim
 runtime! rc/plugins/snippets.vim
 runtime! rc/plugins/supertab.vim
-"runtime! rc/plugins/surround.vim
+runtime! rc/plugins/surround.vim
 "runtime! rc/plugins/syntastic-local-eslint.vim
 "runtime! rc/plugins/syntastic.vim
-"runtime! rc/plugins/tabular.vim
+runtime! rc/plugins/tabular.vim
 "runtime! rc/plugins/tern.vim
 "runtime! rc/plugins/tlib.vim
 runtime! rc/plugins/tmux-navigator.vim

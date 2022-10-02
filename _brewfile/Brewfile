@@ -1,46 +1,73 @@
 
 # tap repositories and their packages
 
-tap homebrew/bundle
-
-tap homebrew/cask-fonts
-
-tap argon/mas
-brew mas
-
-tap atlassian/tap
-brew atlassian-plugin-sdk
-
-tap rcmdnk/file
-brew brew-file
-
-# Other Homebrew packages
+tap homebrew/core
 brew ack
+brew adns
 brew autoconf
 brew automake
+brew bdw-gc
+brew berkeley-db
+brew brotli
+brew c-ares
+brew ca-certificates
 brew cmake
 brew ctags
+brew docker
+brew docker-compose
+brew docker-machine
 brew fortune
 brew fswatch
 brew gdbm
 brew gettext
 brew git
+brew gmp
+brew gnupg
+brew gnutls
 brew go
-brew gpg
+brew guile
+brew hyperkit
+brew icu4c
+brew jemalloc
+brew kubernetes-cli
+brew libassuan
+brew libev
 brew libevent
+brew libffi
+brew libgcrypt
 brew libgpg-error
+brew libidn2
 brew libksba
+brew libnghttp2
+brew libtasn1
 brew libtool
+brew libunistring
+brew libusb
+brew libuv
 brew libyaml
+brew lua
+brew m4
 brew makedepend
+brew mas
+brew minikube
 brew mono
+brew mpdecimal
+brew ncurses
 brew netcat
+brew nettle
+brew nghttp2
 brew node
-brew openssl
+brew npth
+brew openssl@1.1
+brew p11-kit
 brew pcre
+brew pcre2
+brew perl
+brew pinentry
 brew pkg-config
 brew pstree
-brew python
+brew python@3.10
+brew python@3.9
 brew readline
 brew reattach-to-user-namespace
 brew ruby
@@ -49,24 +76,47 @@ brew sqlite
 brew telnet
 brew the_silver_searcher
 brew tmux
+brew unbound
+brew utf8proc
 brew vim
 brew watch
 brew wget
 brew xz
+brew ykman
 brew zsh
 
-# Other Cask applications
+tap homebrew/bundle
+
+tap homebrew/cask-fonts
+
+tap homebrew/cask
 cask alfred
-cask docker
-cask google-backup-and-sync
 cask microsoft-teams
 cask tastyworks
 cask ubersicht
+cask virtualbox
+
+tap argon/mas
+
+tap atlassian/tap
+
+tap rcmdnk/file
+brew brew-file
+
+# Other Cask applications
+cask google-backup-and-sync
 
 # App Store applications
-appstore 417375580 BetterSnapTool
-appstore 405399194 Kindle
-appstore 482898991 LiveReload
-appstore 715768417 Microsoft Remote Desktop
-appstore 896450579 Textual 5
-appstore 497799835 Xcode
+appstore 417375580   BetterSnapTool            (1.9.5)
+appstore 406056744   Evernote                  (10.27.5)
+appstore 408981434   iMovie                    (10.3.1)
+appstore 1475897096  Jira                      (145.0.0)
+appstore 409183694   Keynote                   (11.2)
+appstore 405399194   Kindle                    (1.33.0)
+appstore 482898991   LiveReload                (2.3.81)
+appstore 715768417   Microsoft Remote Desktop  (8.0.30030)
+appstore 409203825   Numbers                   (11.2)
+appstore 409201541   Pages                     (11.2)
+appstore 896450579   Textual IRC Client        (6.0.12)
+appstore 1278508951  Trello                    (2.12.5)
+appstore 497799835   Xcode                     (13.2.1)
