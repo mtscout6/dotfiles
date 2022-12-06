@@ -39,7 +39,7 @@
     "mocha": "^3.3.0",
     "n": "^2.0.2",
     "nodemon": "^1.19.1",
-    "reveal-md": "0.0.24",
+    "reveal-md": "5.4.0",
     "updtr": "^1.0.0",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.5",
