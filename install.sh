@@ -37,19 +37,19 @@ fi
 # Vim Package Manager Install
 if [ ! -d "$HOME/.vim/bundle/dein.vim" ]
 then
-  git clone --depth=1 git://github.com/Shougo/dein.vim ~/.vim/bundle/dein.vim
+  git clone --depth=1 git@github.com:Shougo/dein.vim ~/.vim/bundle/dein.vim
 fi
 
 # Install Oh-My-ZSH
 if [ ! -d "$HOME/.oh-my-zsh" ]
 then
-  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
 # Install Enhance ZSH Vim Plugin
 if [ ! -d "$HOME/.oh-my-zsh/custom/zsh-vi-mode" ]
 then
-  git clone --depth=1 git://github.com/jeffreytse/zsh-vi-mode $HOME/.oh-my-zsh/custom/zsh-vi-mode
+  git clone --depth=1 git@github.com:jeffreytse/zsh-vi-mode $HOME/.oh-my-zsh/custom/zsh-vi-mode
 fi
 
 # Install npm "global" modules
