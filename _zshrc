@@ -25,7 +25,7 @@ export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.bin/mac:$PATH"
 
 # Bin for Homebrew
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
 
 # Bin from dotfiles/node_modules/.bin
 export PATH="$(ls -l ~/.zshrc | cut -f2- -d'>' | awk '{gsub(/^ +| +$/,"")} {print $0}' | awk '{gsub(/_zshrc$/,"node_modules/.bin")} {print $0}'):$PATH"
